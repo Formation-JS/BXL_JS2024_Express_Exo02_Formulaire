@@ -1,0 +1,229 @@
+{
+    "destinations": [
+        {
+            "id": 1,
+            "name": "Tokyo",
+            "location": "Honshu",
+            "description": "Capitale animée et tentaculaire, Tokyo offre un mélange fascinant de tradition et de modernité, avec des temples anciens, des gratte-ciel imposants, une culture pop vibrante et une scène culinaire de classe mondiale.",
+            "shortDescription": "Une métropole dynamique où l'ancien et le nouveau se rencontrent.",
+            "image": "/images/tokyo.jpg",
+            "thumbnail": "/thumbnails/tokyo.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Kyoto",
+            "location": "Honshu",
+            "description": "Kyoto, l'ancienne capitale du Japon, est un trésor de temples historiques, de sanctuaires sereins, de jardins zen exquis et de quartiers de geishas traditionnels.",
+            "shortDescription": "Plongez dans le cœur culturel et spirituel du Japon.",
+            "image": "/images/kyoto.jpg",
+            "thumbnail": "/thumbnails/kyoto.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Osaka",
+            "location": "Honshu",
+            "description": "Osaka, connue pour son ambiance animée et sa délicieuse cuisine de rue, est une ville dynamique qui offre un mélange unique d'histoire, de culture et de divertissement.",
+            "shortDescription": "Découvrez la ville gourmande du Japon et son énergie contagieuse.",
+            "image": "/images/osaka.jpg",
+            "thumbnail": "/thumbnails/osaka.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Mont Fuji",
+            "location": "Honshu",
+            "description": "Le mont Fuji, la plus haute montagne du Japon, est un symbole emblématique du pays et un site sacré qui offre des vues panoramiques à couper le souffle.",
+            "shortDescription": "Admirez la majesté du mont Fuji, un symbole iconique du Japon.",
+            "image": "/images/mont_fuji.jpg",
+            "thumbnail": "/thumbnails/mont_fuji.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Hiroshima",
+            "location": "Honshu",
+            "description": "Hiroshima, une ville marquée par l'histoire, est un symbole de paix et de résilience, avec des monuments commémoratifs poignants et des musées qui témoignent des événements tragiques de la Seconde Guerre mondiale.",
+            "shortDescription": "Un témoignage poignant de l'histoire et un symbole d'espoir.",
+            "image": "/images/hiroshima.jpg",
+            "thumbnail": "/thumbnails/hiroshima.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Nara",
+            "location": "Honshu",
+            "description": "Nara, l'une des anciennes capitales du Japon, abrite de nombreux temples historiques, des sanctuaires et des parcs où errent paisiblement des daims sauvages.",
+            "shortDescription": "Promenez-vous parmi les temples anciens et les daims amicaux de Nara.",
+            "image": "/images/nara.jpg",
+            "thumbnail": "/thumbnails/nara.jpg"
+        },
+        {
+            "id": 7,
+            "name": "Hakone",
+            "location": "Honshu",
+            "description": "Hakone, une ville thermale pittoresque nichée dans les montagnes, offre des paysages volcaniques spectaculaires, des sources chaudes relaxantes et des vues imprenables sur le mont Fuji.",
+            "shortDescription": "Échappez-vous dans la beauté naturelle de Hakone et ses sources chaudes.",
+            "image": "/images/hakone.jpg",
+            "thumbnail": "/thumbnails/hakone.jpg"
+        },
+        {
+            "id": 8,
+            "name": "Nikko",
+            "location": "Honshu",
+            "description": "Nikko, un site classé au patrimoine mondial de l'UNESCO, est célèbre pour ses temples et sanctuaires richement décorés, ses cascades impressionnantes et ses paysages montagneux magnifiques.",
+            "shortDescription": "Explorez les merveilles naturelles et architecturales de Nikko.",
+            "image": "/images/nikko.jpg",
+            "thumbnail": "/thumbnails/nikko.jpg"
+        },
+        {
+            "id": 9,
+            "name": "Kanazawa",
+            "location": "Honshu",
+            "description": "Kanazawa, une ville historique préservée, est réputée pour son magnifique jardin Kenrokuen, son quartier de samouraïs bien conservé et son artisanat traditionnel.",
+            "shortDescription": "Découvrez le charme intemporel de Kanazawa et son héritage culturel.",
+            "image": "/images/kanazawa.jpg",
+            "thumbnail": "/thumbnails/kanazawa.jpg"
+        },
+        {
+            "id": 10,
+            "name": "Takayama",
+            "location": "Honshu",
+            "description": "Takayama, une charmante ville de montagne, est connue pour ses maisons traditionnelles en bois, ses marchés animés et ses festivals folkloriques colorés.",
+            "shortDescription": "Plongez dans l'atmosphère authentique du Japon rural à Takayama.",
+            "image": "/images/takayama.jpg",
+            "thumbnail": "/thumbnails/takayama.jpg"
+        },
+        {
+            "id": 11,
+            "name": "Sapporo",
+            "location": "Hokkaido",
+            "description": "Sapporo, la capitale dynamique d'Hokkaido, est célèbre pour sa bière, son festival de neige annuel et ses délicieux fruits de mer.",
+            "shortDescription": "Explorez la capitale animée d'Hokkaido et ses délices hivernaux.",
+            "image": "/images/sapporo.jpg",
+            "thumbnail": "/thumbnails/sapporo.jpg"
+        },
+        {
+            "id": 12,
+            "name": "Furano",
+            "location": "Hokkaido",
+            "description": "Furano, une ville pittoresque au cœur d'Hokkaido, est réputée pour ses champs de lavande colorés, ses paysages vallonnés et ses activités de plein air.",
+            "shortDescription": "Promenez-vous dans les champs de lavande parfumés de Furano.",
+            "image": "/images/furano.jpg",
+            "thumbnail": "/thumbnails/furano.jpg"
+        },
+        {
+            "id": 13,
+            "name": "Okinawa",
+            "location": "Îles Ryukyu",
+            "description": "Okinawa, un archipel tropical au sud du Japon, offre des plages de sable blanc immaculées, des eaux cristallines et une culture unique.",
+            "shortDescription": "Évadez-vous dans le paradis tropical d'Okinawa.",
+            "image": "/images/okinawa.jpg",
+            "thumbnail": "/thumbnails/okinawa.jpg"
+        },
+        {
+            "id": 14,
+            "name": "Naha",
+            "location": "Okinawa",
+            "description": "Naha, la capitale animée d'Okinawa, est un centre culturel et économique qui offre un mélange fascinant d'influences japonaises et ryukyuennes.",
+            "shortDescription": "Découvrez le mélange unique de cultures à Naha.",
+            "image": "/images/naha.jpg",
+            "thumbnail": "/thumbnails/naha.jpg"
+        },
+        {
+            "id": 15,
+            "name": "Miyajima",
+            "location": "Honshu",
+            "description": "Miyajima, une île sacrée près d'Hiroshima, est célèbre pour son magnifique sanctuaire flottant d'Itsukushima et sa porte torii rouge emblématique.",
+            "shortDescription": "Admirez la beauté mystique du sanctuaire flottant de Miyajima.",
+            "image": "/images/miyajima.jpg",
+            "thumbnail": "/thumbnails/miyajima.jpg"
+        },
+        {
+            "id": 16,
+            "name": "Kamakura",
+            "location": "Honshu",
+            "description": "Kamakura, une ville côtière historique, abrite de nombreux temples bouddhistes, des sanctuaires shinto et le célèbre Grand Bouddha de bronze.",
+            "shortDescription": "Explorez les trésors historiques et spirituels de Kamakura.",
+            "image": "/images/kamakura.jpg",
+            "thumbnail": "/thumbnails/kamakura.jpg"
+        },
+        {
+            "id": 17,
+            "name": "Kobe",
+            "location": "Honshu",
+            "description": "Kobe, une ville portuaire cosmopolite, est réputée pour son bœuf de Kobe de renommée mondiale, ses sources chaudes et ses vues nocturnes scintillantes.",
+            "shortDescription": "Savourez le bœuf de Kobe et les vues panoramiques de cette ville portuaire.",
+            "image": "/images/kobe.jpg",
+            "thumbnail": "/thumbnails/kobe.jpg"
+        },
+        {
+            "id": 18,
+            "name": "Yokohama",
+            "location": "Honshu",
+            "description": "Yokohama, une ville portuaire animée, offre un mélange fascinant d'histoire, de culture et de modernité, avec un quartier chinois animé et de magnifiques parcs au bord de l'eau.",
+            "shortDescription": "Découvrez le mélange éclectique de Yokohama entre tradition et modernité.",
+            "image": "/images/yokohama.jpg",
+            "thumbnail": "/thumbnails/yokohama.jpg"
+        },
+        {
+            "id": 19,
+            "name": "Nagoya",
+            "location": "Honshu",
+            "description": "Nagoya, une ville industrielle importante, abrite le château de Nagoya, le musée Toyota et le sanctuaire Atsuta, l'un des sanctuaires shinto les plus importants du Japon.",
+            "shortDescription": "Explorez l'histoire et l'industrie de Nagoya.",
+            "image": "/images/nagoya.jpg",
+            "thumbnail": "/thumbnails/nagoya.jpg"
+        },
+        {
+            "id": 20,
+            "name": "Koya-san",
+            "location": "Honshu",
+            "description": "Koya-san, un complexe de temples bouddhistes situé au sommet d'une montagne, est un lieu de pèlerinage important et un centre spirituel.",
+            "shortDescription": "Trouvez la paix intérieure dans le centre spirituel de Koya-san.",
+            "image": "/images/koya_san.jpg",
+            "thumbnail": "/thumbnails/koya_san.jpg"
+        },
+        {
+            "id": 21,
+            "name": "Shirakawa-go",
+            "location": "Honshu",
+            "description": "Shirakawa-go, un village pittoresque classé au patrimoine mondial de l'UNESCO, est célèbre pour ses maisons traditionnelles aux toits de chaume pentus.",
+            "shortDescription": "Admirez les maisons traditionnelles uniques de Shirakawa-go.",
+            "image": "/images/shirakawa_go.jpg",
+            "thumbnail": "/thumbnails/shirakawa_go.jpg"
+        },
+        {
+            "id": 22,
+            "name": "Beppu",
+            "location": "Kyushu",
+            "description": "Beppu, une ville thermale réputée, offre une variété de sources chaudes, de bains de boue et de geysers, ainsi que des paysages volcaniques spectaculaires.",
+            "shortDescription": "Détendez-vous dans les sources chaudes thérapeutiques de Beppu.",
+            "image": "/images/beppu.jpg",
+            "thumbnail": "/thumbnails/beppu.jpg"
+        },
+        {
+            "id": 23,
+            "name": "Fukuoka",
+            "location": "Kyushu",
+            "description": "Fukuoka, une ville animée sur l'île de Kyushu, est connue pour sa délicieuse cuisine, ses festivals animés et ses nombreux temples et sanctuaires.",
+            "shortDescription": "Découvrez la ville animée de Fukuoka et ses délices culinaires.",
+            "image": "/images/fukuoka.jpg",
+            "thumbnail": "/thumbnails/fukuoka.jpg"
+        },
+        {
+            "id": 24,
+            "name": "Nagasaki",
+            "location": "Kyushu",
+            "description": "Nagasaki, une ville portuaire historique, est marquée par son passé et offre un mélange unique de cultures japonaise, chinoise et européenne.",
+            "shortDescription": "Explorez l'histoire et le patrimoine multiculturel de Nagasaki.",
+            "image": "/images/nagasaki.jpg",
+            "thumbnail": "/thumbnails/nagasaki.jpg"
+        },
+        {
+            "id": 25,
+            "name": "Arashiyama",
+            "location": "Kyoto",
+            "description": "Arashiyama, un quartier pittoresque à l'ouest de Kyoto, est célèbre pour sa forêt de bambous luxuriante, ses temples historiques et ses paysages fluviaux magnifiques.",
+            "shortDescription": "Promenez-vous dans la forêt de bambous enchanteresse d'Arashiyama.",
+            "image": "/images/arashiyama.jpg",
+            "thumbnail": "/thumbnails/arashiyama.jpg"
+        }
+    ]
+}

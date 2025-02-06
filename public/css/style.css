@@ -1,0 +1,109 @@
+/* Cleanup */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Layout */
+header {
+    min-width: 100vw;
+    border-bottom: crimson 0.1ch solid;
+    padding: 2ch;
+    position:fixed;
+    top: 0;
+    left: 0;
+    background-color: snow;
+
+    > nav > ul {
+        display: flex;
+        flex-direction: row;
+        gap: 1ch;
+
+        a {
+            color: crimson;
+            text-decoration: none;
+            padding: 0.5ch 1ch;
+            font-size: 1.5em;
+
+            &:hover {
+                background-color: rgba(255, 192, 203, 0.267);
+                border-radius: 0.5em;
+            }
+        }
+    } 
+}
+
+main {
+    margin-top: 3em;
+    padding: 1em;
+    max-width: 1024px;
+    margin: auto;
+}
+
+h1 {
+    margin-bottom: 2ch;
+}
+
+/* Home • Index */
+.home {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+    .logo {
+        width: 100%;
+    }
+
+    .desc {
+        display: flex;
+        flex-direction: column;
+        padding: 2ch;
+        gap: 1ch;
+    }
+}
+
+/* Dest • Index */
+.dest-index {
+
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 1ch;
+
+    .card {
+        padding: 1ch;
+        margin: 0.5ch;
+        border: 0.1ch crimson solid;
+        border-radius: 1ch;
+        box-shadow: 0.3ch 0.3ch 0.3ch rgba(220, 20, 60, 0.575);
+        background-color: snow;
+        height: 17em;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5ch;
+
+        h2 {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            width: 100%;
+        }
+
+        img {
+            width: 100%;
+            max-height: 10em;
+            object-fit: cover;
+        }
+
+        &:hover {
+            background-color: rgba(255, 192, 203, 0.267);
+        }
+
+        p {
+            flex-grow: 1;
+            text-overflow: ellipsis;
+        }
+    }
+}

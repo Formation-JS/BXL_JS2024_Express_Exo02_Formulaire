@@ -1,0 +1,31 @@
+{
+  "name": "exo-express-02",
+  "version": "0.2.0",
+  "description": "Exo 02",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aurélien St",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "morgan": "^1.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Formation-JS/BXL_JS2024_Express_Exo02_Formulaire.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Formation-JS/BXL_JS2024_Express_Exo02_Formulaire/issues"
+  },
+  "homepage": "https://github.com/Formation-JS/BXL_JS2024_Express_Exo02_Formulaire#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
