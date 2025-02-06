@@ -1,0 +1,30 @@
+<h1>Formulaire de contact</h1>
+
+<h2>Veuillez remplir le formulaire</h2>
+
+<form method="post">
+    <div>
+        <label for="input-email">Email</label>
+        <input id="input-email" name="email" type="email" required>
+    </div>
+    <div>
+        <label for="input-pseudo">Pseudo</label>
+        <input id="input-pseudo" name="pseudo" type="text">
+    </div>
+    <div>
+        <label for="input-cat">Categorie</label>
+        <select id="input-cat" name="category" required>
+            <option value="Info">Info</option>
+            <option value="Devis">Devis</option>
+            <option value="Reclamation">Reclamation</option>
+            <option value="Autres">Autres</option>
+        </select>
+    </div>
+    <div>
+        <label for="input-msg">Message</label>
+        <textarea id="input-msg" name="message" required></textarea>
+    </div>
+    <div>
+        <button type="submit">Envoyer</button>
+    </div>
+</form>

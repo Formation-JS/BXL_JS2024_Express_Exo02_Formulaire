@@ -48,6 +48,16 @@ app.get('/dest/:id([0-9]+)', (req, res) => {
     res.status(200).render('dest/detail', destination);
 });
 
+app.get('/contact', (req, res) => {
+
+    res.status(200).render('contact/formulaire')
+});
+
+app.get('/contact/response', (req, res) => {
+
+    res.status(200).render('contact/response')
+});
+
 //! Page 404 si aucune route n'a été trouvé !
 app.use((req, res) => {
     res.status(404).render('errors/404');
