@@ -48,6 +48,12 @@ h1 {
     margin-bottom: 2ch;
 }
 
+/* Common */
+.error-msg {
+    color: hotpink;
+    font-weight: bold;
+}
+
 /* Home • Index */
 .home {
     display: grid;

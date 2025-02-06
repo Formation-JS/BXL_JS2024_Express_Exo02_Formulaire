@@ -27,6 +27,9 @@ app.use((req, res, next) => {
     next();
 });
 
+//  - Gestion des données des formulaires
+app.use(express.urlencoded());
+
 //! Routing
 app.get('/', (req, res) => {
     res.status(200).render('home/index');
@@ -41,7 +44,7 @@ app.get('/dest/:id([0-9]+)', (req, res) => {
     const id = parseInt(req.params.id);
     const destination = data.destinations.find(d => d.id === id);
 
-    if(!destination) {
+    if (!destination) {
         res.status(404).render('errors/404');
     }
 
@@ -49,12 +52,27 @@ app.get('/dest/:id([0-9]+)', (req, res) => {
 });
 
 app.get('/contact', (req, res) => {
-
     res.status(200).render('contact/formulaire')
 });
 
-app.get('/contact/response', (req, res) => {
+app.post('/contact', (req, res) => {
+    const { email, pseudo, category, message } = req.body;
 
+    // Validation des données
+    if(!email || !category || !message) {
+        res.status(200).render('contact/formulaire', { error: true })
+        return;
+    }
+
+    // Traitement des données
+    // Cas réel : Stockage en db, envoie de mail, ...
+    console.log(`[${category}] ${chalk.redBright(email + ' ' + pseudo)} : ${message}`)
+
+    // Redirection vers la page "response"
+    res.status(303).redirect('/contact/response');
+});
+
+app.get('/contact/response', (req, res) => {
     res.status(200).render('contact/response')
 });
 
