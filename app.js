@@ -40,12 +40,19 @@ app.get('/dest', (req, res) => {
     res.status(200).render('dest/index', { destinations });
 });
 
-app.get('/dest/:id([0-9]+)', (req, res) => {
+app.get('/dest/:id', (req, res, next) => {
     const id = parseInt(req.params.id);
-    const destination = data.destinations.find(d => d.id === id);
+    if(isNaN(id)) {
+        // Si le params est invalide, on rend la main au routing
+        // (Il est également possible de déclancher une erreur)
+        next();
+        return;
+    }
 
-    if (!destination) {
+    const destination = data.destinations.find(d => d.id === id);
+    if(!destination) {
         res.status(404).render('errors/404');
+        return;
     }
 
     res.status(200).render('dest/detail', destination);
